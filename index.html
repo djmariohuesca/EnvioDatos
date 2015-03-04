@@ -1,0 +1,47 @@
+<!DOCTYPE html-->
+ 
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<title>Aplicación Móvil </title>
+
+</head>
+
+<body>
+<div data-role="page" id="Pricipal" data-theme="a">
+<div data-role="header">
+<p style="text-align: center">Envio de datos desde un Formulario </p>
+</div>
+<div data-role="content">
+<form method="POST" action="envio.php">
+    <div class="ui-field-contain">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellidos">Apellidos: </label>
+        <input type="text" name="apellidos" id="apellidos">
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="cuenta@user">
+       
+        <input type="submit" name="enviar" value="Enviar">
+        
+    </div>    
+    </form>
+</div>
+
+<div data-role="footer">
+<p style="text-align: center; font-size: 10px;">Derechos reservados</p>
+</div>
+
+
+</div>
+</body>
+    
+</html>
